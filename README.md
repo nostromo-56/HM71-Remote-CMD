@@ -1,7 +1,4 @@
 # HM71-Remote-CMD
-Remake of App Android "Pioneer Remote App" in Python 3 for Desktop.
-
-# HM71-Remote-CMD
 
 Remake of App Android "Pioneer Remote App" in Python 3 for Desktop.
 

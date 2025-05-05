@@ -60,4 +60,4 @@ HM71_Turner_PRES_04 = "Radio 04"
 
 Execution
 ----------
-python3 HM71-Remote-CMD.py
+python3 ./HM71-Remote-CMD.py

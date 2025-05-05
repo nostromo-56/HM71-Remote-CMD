@@ -52,7 +52,7 @@ HM71_Ini_editor = "/usr/bin/kwrite"
 ; HM71_Ini_editor = "notepad"
 ; HM71_Ini_editor = "open"
 
-You can put a description for the preset stations in the Radio:
+You can put a description for the preset stations in the Turner:
 HM71_Turner_PRES_01 = "Radio 01"
 HM71_Turner_PRES_02 = "Radio 02"
 HM71_Turner_PRES_03 = "Radio 03"

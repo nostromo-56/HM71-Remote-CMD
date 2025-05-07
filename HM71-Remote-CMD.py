@@ -136,6 +136,7 @@ def CDRows():
     buttons[2][0].configure(text="To play CD use Botton:")
     buttons[3][0].configure(text="[Stop]  [Play]  [Pause]  [Prev]  [Next]")
     RowsTally = 0
+    progressbar_end()
 
 def AudioINRows():
     global RowsTally

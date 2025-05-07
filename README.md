@@ -8,6 +8,10 @@ To create it I used my X-HM71-K, so I guarantee the compatibility whith this fam
 
 I could not test the service that acquires audio files from an Ipod, since I do not have this device.
 
+Download
+--------
+https://github.com/nostromo-56/HM71-Remote-CMD
+
 Installation
 ------------
 The script works with python3.

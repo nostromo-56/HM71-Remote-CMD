@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>HM71-Remote-CMD | Remake of App Android “Pioneer Remote App” in Python 3 for Desktop</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="HM71-Remote-CMD" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Remake of App Android “Pioneer Remote App” in Python 3 for Desktop" />
+<meta property="og:description" content="Remake of App Android “Pioneer Remote App” in Python 3 for Desktop" />
+<link rel="canonical" href="https://nostromo-56.github.io/HM71-Remote-CMD/" />
+<meta property="og:url" content="https://nostromo-56.github.io/HM71-Remote-CMD/" />
+<meta property="og:site_name" content="HM71-Remote-CMD" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="HM71-Remote-CMD" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Remake of App Android “Pioneer Remote App” in Python 3 for Desktop","headline":"HM71-Remote-CMD","name":"HM71-Remote-CMD","url":"https://nostromo-56.github.io/HM71-Remote-CMD/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/HM71-Remote-CMD/assets/css/style.css?v=a9a5504a25c6d608be69e67111eb71a431c8f41c">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/HM71-Remote-CMD/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+
+      <h1 id="hm71-remote-cmd">HM71-Remote-CMD</h1>
+
+<p>Remake of App Android “Pioneer Remote App” in Python 3 for Desktop.</p>
+
+<p>Python script that allows you to remotely control a Pioneer device with Wi-Fi controllable via telnet.</p>
+
+<p>To create it I used my X-HM71-K, so I guarantee the compatibility whith this family of products.</p>
+
+<p>I could not test the service that acquires audio files from an Ipod, since I do not have this device.</p>
+
+<h2 id="download">Download</h2>
+<p><a href="https://github.com/nostromo-56/HM71-Remote-CMD">https://github.com/nostromo-56/HM71-Remote-CMD</a></p>
+
+<h2 id="installation">Installation</h2>
+<p>The script works with python3.</p>
+
+<p>So it is necessary to have an installation on board.</p>
+
+<p>For Linux it is preinstalled in all distributions.
+For Windows it can be downloaded at the link <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a>
+For macOS it is not recommended to use the native installed one (Python2) but to download it from <a href="https://www.python.org/downloads/macos/">https://www.python.org/downloads/macos/</a></p>
+
+<p>If it is not already available it is necessary to install Tkinter
+Useful information is available on this site <a href="https://codeloop.org/how-to-install-tkinter-in-windows-linux/">https://codeloop.org/how-to-install-tkinter-in-windows-linux/</a>
+On macOS and Windows, using the versions that I recommended, you should find it preset.</p>
+
+<p>On macOS be careful to launch it with “python3 HM71-Remote-CMD.py”</p>
+
+<p>If you have a version of Python 3.13 or higher and this error occurs:</p>
+
+<p>localhost@user:HM71-Remote-CMD$ ./HM71-Remote-CMD.py
+Traceback (most recent call last):
+File “./HM71-Remote-CMD.py”, line 7, in <module>
+import telnetlib
+ModuleNotFoundError: No module named 'telnetlib'</module></p>
+
+<p>install this library <a href="https://pypi.org/project/telnetlib-313-and-up/">https://pypi.org/project/telnetlib-313-and-up</a></p>
+
+<h2 id="configuration">Configuration</h2>
+<p>Before running the program for the first time, edit HM71-Remote-CMD.ini which must be in the same directory as HM71-Remote-CMD.py.</p>
+
+<p>HM71_HOST = 192.168.x.x (Enter the ip of the pioneer device)
+HM71_PORT = 8102 (Verify that it is the correct port)</p>
+
+<p>Debug is switchable on/off:
+;HM71_DEBUG = True
+HM71_DEBUG = False</p>
+
+<p>Set HM71_Ini_editor with your favorite editor:
+;HM71_Ini_editor kwrite@KDE gedit@Gnome notepad@Windows open@macOS
+HM71_Ini_editor = “/usr/bin/kwrite”
+; HM71_Ini_editor = “/usr/bin/gedit”
+; HM71_Ini_editor = “notepad”
+; HM71_Ini_editor = “open”</p>
+
+<p>You can put a description for the preset stations in the Turner:
+HM71_Turner_PRES_01 = “Radio 01”
+HM71_Turner_PRES_02 = “Radio 02”
+HM71_Turner_PRES_03 = “Radio 03”
+HM71_Turner_PRES_04 = “Radio 04”</p>
+
+<h2 id="execution">Execution</h2>
+<p>python3 ./HM71-Remote-CMD.py</p>
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

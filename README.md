@@ -14,6 +14,10 @@ https://github.com/nostromo-56/HM71-Remote-CMD
 
 Installation
 ------------
+Create a folder, and copy in it the files:
+HM71-Remote-CMD.py
+HM71-Remote-CMD.ini
+
 The script works with python3.
 
 So it is necessary to have an installation on board.
@@ -61,6 +65,8 @@ HM71_Turner_PRES_01 = "Radio 01"
 HM71_Turner_PRES_02 = "Radio 02"
 HM71_Turner_PRES_03 = "Radio 03"
 HM71_Turner_PRES_04 = "Radio 04"
+
+Once the configuration file has been modified, the application, if active, must be restarted.
 
 Execution
 ----------

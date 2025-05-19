@@ -127,7 +127,7 @@ def TurnerRows():
     RowsTally = 30
     for i in range(1,31):
         buttons[i][0].configure(text="Preselect "+str(i).zfill(2) + Turner_PRE_lst[i-1])
-
+    label3.configure(text=MsgSspace*" "+"")
 def CDRows():
     global RowsTally
     Clean_Box()
@@ -229,6 +229,7 @@ def Diplay(): #
     if  IPT_Selected [:4] == "FN02":    # Turner
         TurnerRows()
         Box_on_top()
+        progressbar_end()
         return
     if  IPT_Selected [:4] == "FN01":    # CD
         CDRows()
